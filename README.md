@@ -1,10 +1,10 @@
 # Security Research Write-ups
 
-A collection of anonymized technical vulnerability write-ups.
+An English-language collection of anonymized bug bounty reports. All entries describe submitted security findings, observed evidence, demonstrated impact, and CVSS v3.1 ratings.
 
-Each entry includes technical details, proof of concept, demonstrated impact, and CVSS v3.1 scoring. Company names, program details, rewards, screenshots, personal data, and triage discussions are intentionally omitted.
+Organization names, reward details, report links, screenshots, personal data, and triage conversations are excluded.
 
-## Vulnerabilities
+## Reports
 
 | # | Vulnerability | CVSS v3.1 |
 |---:|---|---|
@@ -18,13 +18,8 @@ Each entry includes technical details, proof of concept, demonstrated impact, an
 | 08 | [Client-Controlled Pricing Fields Affect the Checkout Amount](writeups/08-client-side-price-tampering.md) | 6.5 · Medium* |
 | 09 | [Role Hierarchy Bypass Allows a Manager to Suspend a Higher-Privilege Account](writeups/09-role-hierarchy-authorization-bypass.md) | 5.4 · Medium* |
 | 10 | [Unvalidated Checkout Return URL Enables Phishing Redirects](writeups/10-untrusted-checkout-return-url.md) | 2.6 · Low* |
-| 11 | [ZIP Extraction Symlink Traversal Leading to Server-Side Code Execution](writeups/11-zip-symlink-path-traversal-rce.md) | 10.0 · Critical* |
-| 12 | [JWT Key ID Path Traversal Allows Forged Administrator Tokens](writeups/12-jwt-kid-path-traversal-forgery.md) | 9.3 · Critical* |
-| 13 | [ERB Server-Side Template Injection Through an Email Parameter](writeups/13-erb-template-injection-in-email.md) | 9.8 · Critical* |
-| 14 | [UTF-8 Byte-Length Mismatch Enables Session and ORM Query Injection](writeups/14-utf8-cookie-validation-orm-injection.md) | 6.5 · Medium* |
-| 15 | [Multipart Boundary Parser Differential Bypasses Scope Validation](writeups/15-multipart-boundary-parser-differential.md) | 7.5 · High* |
-| 16 | [Unauthenticated GraphQL Access to Reservation Details by UUID](writeups/16-unauthenticated-graphql-reservation-disclosure.md) | 3.7 · Low* |
-| 17 | [Android Intent Injection Grants Access to a Privileged WebView Bridge](writeups/17-android-intent-privileged-webview-bridge.md) | 4.4 · Medium* |
-| 18 | [WebView Download Handler Leaks an Active Session Token to an External Host](writeups/18-webview-download-session-token-exposure.md) | 7.1 · High* |
+| 11 | [Unauthenticated GraphQL Access to Reservation Details by UUID](writeups/11-unauthenticated-graphql-reservation-disclosure.md) | 3.7 · Low* |
+| 12 | [Android Intent Injection Grants Access to a Privileged WebView Bridge](writeups/12-android-intent-privileged-webview-bridge.md) | 4.4 · Medium* |
+| 13 | [WebView Download Handler Leaks an Active Session Token to an External Host](writeups/13-webview-download-session-token-exposure.md) | 7.1 · High* |
 
 *Scores marked with an asterisk are indicative estimates.*
