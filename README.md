@@ -1,8 +1,8 @@
 # Security Research Write-ups
 
-An English-language collection of anonymized bug bounty reports. All entries describe submitted security findings, observed evidence, demonstrated impact, and CVSS v3.1 ratings.
+An English-language collection of confirmed, technically verified bug bounty vulnerability reports. Each entry records reproduced evidence, demonstrated impact, and CVSS v3.1 assessments. Confirmation of a vulnerability is distinct from proof of every possible secondary impact.
 
-Organization names, reward details, report links, screenshots, personal data, and triage conversations are excluded.
+Organization names, program references, rewards, screenshots, personal data, and triage commentary are excluded.
 
 ## Reports
 
@@ -21,5 +21,15 @@ Organization names, reward details, report links, screenshots, personal data, an
 | 11 | [Unauthenticated GraphQL Access to Reservation Details by UUID](writeups/11-unauthenticated-graphql-reservation-disclosure.md) | 3.7 · Low* |
 | 12 | [Android Intent Injection Grants Access to a Privileged WebView Bridge](writeups/12-android-intent-privileged-webview-bridge.md) | 4.4 · Medium* |
 | 13 | [WebView Download Handler Leaks an Active Session Token to an External Host](writeups/13-webview-download-session-token-exposure.md) | 7.1 · High* |
+| 14 | [Cross-Session Cart Item Modification and Deletion via Unscoped Identifier](writeups/14-cross-session-cart-item-idor.md) | 4.8 · Medium* |
+| 15 | [SQL and ORM Error Disclosure in Checkout Payment Method Validation](writeups/15-checkout-sql-error-disclosure.md) | 3.7 · Low* |
+| 16 | [Unauthenticated Reflected XSS in a Language-Selection Error Page](writeups/16-reflected-xss-language-error-page.md) | 6.1 · Medium* |
+| 17 | [Pre-Authentication Reflected XSS in Staff Login Redirect Parameters](writeups/17-reflected-xss-staff-login-redirect.md) | 6.1 · Medium* |
+| 18 | [Reflected XSS via an Unvalidated JSONP Callback in Cart Services](writeups/18-jsonp-callback-reflected-xss.md) | 6.1 · Medium* |
+| 19 | [Reflected JavaScript-Context XSS in a Checkout Date Parameter](writeups/19-checkout-selecteddate-javascript-xss.md) | 4.7 · Medium* |
+| 20 | [Direct Access to Invoice PDF Files Without Authorization](writeups/20-unauthenticated-invoice-pdf-access.md) | 5.9 · Medium* |
+| 21 | [Unauthenticated File Upload Enables Server-Side PHP Execution](writeups/21-unauthenticated-filemanager-php-upload-rce.md) | 9.8 · Critical* |
+| 22 | [Authenticated Error-Based SQL Injection in a Reporting Filter](writeups/22-authenticated-payment-filter-error-based-sqli.md) | 6.5 · Medium* |
+| 23 | [Unauthenticated Stacked SQL Injection in a Product Listing Limit Parameter](writeups/23-unauthenticated-stacked-sqli-product-limit.md) | 7.5 · High* |
 
-*Scores marked with an asterisk are indicative estimates.*
+*Scores marked with an asterisk are indicative estimates, not independently standardized ratings.*
