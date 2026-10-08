@@ -2,7 +2,7 @@
 
 A collection of anonymized technical vulnerability write-ups.
 
-Each entry includes technical details, proof of concept, demonstrated impact, and CVSS scoring.
+Each entry includes technical details, proof of concept, demonstrated impact, and CVSS v3.1 scoring. Company names, program details, rewards, screenshots, personal data, and triage discussions are intentionally omitted.
 
 ## Vulnerabilities
 
@@ -24,5 +24,7 @@ Each entry includes technical details, proof of concept, demonstrated impact, an
 | 14 | [UTF-8 Byte-Length Mismatch Enables Session and ORM Query Injection](writeups/14-utf8-cookie-validation-orm-injection.md) | 6.5 · Medium* |
 | 15 | [Multipart Boundary Parser Differential Bypasses Scope Validation](writeups/15-multipart-boundary-parser-differential.md) | 7.5 · High* |
 | 16 | [Unauthenticated GraphQL Access to Reservation Details by UUID](writeups/16-unauthenticated-graphql-reservation-disclosure.md) | 3.7 · Low* |
+| 17 | [Android Intent Injection Grants Access to a Privileged WebView Bridge](writeups/17-android-intent-privileged-webview-bridge.md) | 4.4 · Medium* |
+| 18 | [WebView Download Handler Leaks an Active Session Token to an External Host](writeups/18-webview-download-session-token-exposure.md) | 7.1 · High* |
 
 *Scores marked with an asterisk are indicative estimates.*
