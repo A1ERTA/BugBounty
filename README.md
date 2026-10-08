@@ -23,5 +23,6 @@ Each entry includes technical details, proof of concept, demonstrated impact, an
 | 13 | [ERB Server-Side Template Injection Through an Email Parameter](writeups/13-erb-template-injection-in-email.md) | 9.8 · Critical* |
 | 14 | [UTF-8 Byte-Length Mismatch Enables Session and ORM Query Injection](writeups/14-utf8-cookie-validation-orm-injection.md) | 6.5 · Medium* |
 | 15 | [Multipart Boundary Parser Differential Bypasses Scope Validation](writeups/15-multipart-boundary-parser-differential.md) | 7.5 · High* |
+| 16 | [Unauthenticated GraphQL Access to Reservation Details by UUID](writeups/16-unauthenticated-graphql-reservation-disclosure.md) | 3.7 · Low* |
 
 *Scores marked with an asterisk are indicative estimates.*
