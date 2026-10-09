@@ -22,7 +22,7 @@ Organization names, program references, rewards, screenshots, personal data, and
 | 12 | [Android Intent Injection Grants Access to a Privileged WebView Bridge](writeups/12-android-intent-privileged-webview-bridge.md) | 4.4 · Medium* |
 | 13 | [WebView Download Handler Leaks an Active Session Token to an External Host](writeups/13-webview-download-session-token-exposure.md) | 7.1 · High* |
 | 14 | [Cross-Session Cart Item Modification and Deletion via Unscoped Identifier](writeups/14-cross-session-cart-item-idor.md) | 4.8 · Medium* |
-| 15 | [SQL and ORM Error Disclosure in Checkout Payment Method Validation](writeups/15-checkout-sql-error-disclosure.md) | 3.7 · Low* |
+| 15 | [Pre-Authentication XSS Leading to OS Command Execution in an Electron Client](writeups/15-preauth-xss-electron-rce.md) | 9.6 · Critical* |
 | 16 | [Unauthenticated Reflected XSS in a Language-Selection Error Page](writeups/16-reflected-xss-language-error-page.md) | 6.1 · Medium* |
 | 17 | [Pre-Authentication Reflected XSS in Staff Login Redirect Parameters](writeups/17-reflected-xss-staff-login-redirect.md) | 6.1 · Medium* |
 | 18 | [Reflected XSS via an Unvalidated JSONP Callback in Cart Services](writeups/18-jsonp-callback-reflected-xss.md) | 6.1 · Medium* |
